@@ -1,0 +1,6 @@
+
+This URL Shortener application allows users to convert long URLs into short, shareable links.
+
+When a user submits a long URL, the backend generates a unique short identifier and stores the mapping in a database along with metadata like creation date and author. If the same URL already exists in the database, the existing short link is returned.
+
+The shortened URL can then be used to redirect users to the original long URL. Each access to a short link is tracked, and additional information such as visit count or creation time can be retrieved via the API.

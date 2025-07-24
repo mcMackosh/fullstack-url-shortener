@@ -1,0 +1,49 @@
+# ===== BACKEND (.NET) =====
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/*.suo
+backend/**/*.csproj.user
+backend/**/*.vspx
+backend/**/*.pidb
+backend/**/*.ide
+
+# VS-related
+.vscode/
+.idea/
+backend/.vs/
+
+# Local DB files
+*.db
+*.sqlite
+
+# DefaultAbout.txt (if ever temporary)
+# backend/bin/**/DefaultAbout.txt
+
+# ===== FRONTEND (Node.js/React) =====
+frontend/node_modules/
+frontend/.pnp/
+frontend/pnp.js
+
+# Test output
+frontend/coverage/
+
+# Production build
+frontend/build/
+frontend/dist/
+frontend/.next/
+
+# Env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Misc
+.DS_Store
+Thumbs.db
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
